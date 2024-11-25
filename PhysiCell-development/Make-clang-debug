@@ -41,7 +41,7 @@ OMP_ROOT := /opt/homebrew/opt/libomp
 
 # arg,  march not supported on arm64!
 #CFLAGS := -march=$(ARCH) -g  -Xpreprocessor -fopenmp -m64 -std=c++11 -I/opt/homebrew/include
-CFLAGS :=  -g -fomit-frame-pointer -Xpreprocessor -fopenmp -m64 -std=c++11 -I/opt/homebrew/opt/libomp/include
+CFLAGS :=  -g -fomit-frame-pointer -Xpreprocessor -fopenmp -m64 -std=c++11 -I/opt/homebrew/opt/libomp/include -Wno-deprecated-declarations
 #CFLAGS :=  -O3 -fomit-frame-pointer -Xpreprocessor -fopenmp -m64 -std=c++11 -I/usr/local/opt/libomp/include
 
 #PATH_TO_OMP := -L/usr/local/opt/libomp/lib
