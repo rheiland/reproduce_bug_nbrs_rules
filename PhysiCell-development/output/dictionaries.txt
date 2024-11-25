@@ -1,0 +1,68 @@
+Signals: 
+=======
+0 : debris
+1 : intracellular debris
+2 : debris gradient
+3 : pressure
+4 : volume
+5 : contact with macrophage
+6 : contact with live cell
+7 : contact with dead cell
+8 : contact with apoptotic cell
+9 : contact with necrotic cell
+10 : contact with other dead cell
+11 : contact with basement membrane
+12 : damage
+13 : damage delivered
+14 : attacking
+15 : dead
+16 : total attack time
+17 : time
+18 : custom:sample
+19 : apoptotic
+20 : necrotic
+
+Behaviors: 
+=========
+0 : debris secretion
+1 : debris secretion target
+2 : debris uptake
+3 : debris export
+4 : cycle entry
+5 : exit from cycle phase 1
+6 : exit from cycle phase 2
+7 : exit from cycle phase 3
+8 : exit from cycle phase 4
+9 : exit from cycle phase 5
+10 : apoptosis
+11 : necrosis
+12 : migration speed
+13 : migration bias
+14 : migration persistence time
+15 : chemotactic response to debris
+16 : cell-cell adhesion
+17 : cell-cell adhesion elastic constant
+18 : adhesive affinity to macrophage
+19 : relative maximum adhesion distance
+20 : cell-cell repulsion
+21 : cell-BM adhesion
+22 : cell-BM repulsion
+23 : phagocytose apoptotic cell
+24 : phagocytose necrotic cell
+25 : phagocytose other dead cell
+26 : phagocytose macrophage
+27 : attack macrophage
+28 : fuse to macrophage
+29 : transform to macrophage
+30 : asymmetric division to macrophage
+31 : custom:sample
+32 : is_movable
+33 : immunogenicity to macrophage
+34 : cell attachment rate
+35 : cell detachment rate
+36 : maximum number of cell attachments
+37 : attack damage rate
+38 : attack duration
+39 : damage rate
+40 : damage repair rate
+
